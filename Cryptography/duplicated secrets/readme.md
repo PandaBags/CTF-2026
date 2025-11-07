@@ -1,8 +1,4 @@
-
-
-
-
-
+Question: Two encrypted email messages were intercepted from a corporate mail server. It seems both emails were encrypted using the same algorithm and parameters..
 
 Solution:
 
