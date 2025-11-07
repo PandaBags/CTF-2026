@@ -1,0 +1,41 @@
+## Access Code Solution: 57005
+
+This document outlines the four-step process used to derive the 32-bit access code for the OBLIVION security terminal's 'challenge' executable. The key was found by reverse-engineering the validation logic and manually extracting hidden constants.
+
+---
+
+### 1. Analyzing the Validation Logic
+
+The program was analyzed in a decompiler (like Ghidra) to determine the logic.
+
+* Core Check: The program compared user input against a secret 32-bit value (SecretCode).
+* Calculation: The code revealed SecretCode was created using a bitwise XOR operation (exclusive OR) on two global constants:
+    SecretCode = ConstantA XOR ConstantB
+
+---
+
+### 2. Extracting Constants from the Binary
+
+The raw values were extracted from the executable file's data section using terminal tools.
+
+* Tools: readelf, dd, and xxd were used.
+* Raw Data Found: ced6 0000 6308 0000
+
+### 3. Applying Little-Endian Correction
+
+The extracted raw bytes were corrected for the Little-Endian byte order to get the true 32-bit values:
+
+* ConstantA (system_constants): ced6 0000 became 0x0000D6CE
+* ConstantB (_DAT_00104044): 6308 0000 became 0x00000863
+
+---
+
+### 4. Final Calculation and Key
+
+The final access code was determined by performing the XOR calculation:
+
+* XOR Operation: 0x0000D6CE XOR 0x00000863
+* Hexadecimal Result: 0x0000DEAD
+* Final Decimal Key: 57005
+
+The decimal value 57005 was the correct key to submit.
