@@ -1,1 +1,1 @@
-no text just an exe
+Question: the key of vault 404's mainframe are in disarray, encrypted by an unknown attacker. Without the key, survival is impossible. Lucky for us, we recovered the tools the attacker used to lock our files. However, the most critical piece is still missing.
