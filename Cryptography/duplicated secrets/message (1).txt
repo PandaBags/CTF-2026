@@ -1,0 +1,27 @@
+Ciphertext 1 (base64):
+
+flk+0NQAQ9L1rcHXm2MW0RPK7VHwhuxt96VWFcEc9vDvMbq/o6x6hOIItPuGaoy4HWjV8UI7Kb71KmKB8qUXM06u7qFCV0w07MYLN1Nrp7ZofkEtpWjdGothyfj+0i9R1/qJqGJX5E9UvArFE8rV67Um8SjLnVe/Mn3fJPnURb/xFthFtKnIhB1vhsy1vgOIcXpHBPPQyi+0aQxWfrbc6JeKciVBwEhiNFiv6AaP7J+s+o67PBvORMgliP9kBSZx/3qPcbFhZi6jr00/HmhMmRHcVmDD90AGXMwWu6IzAOd2Ow/KyL9NFsBMW1c1smuwgR37JavMaNzXqUZB/JLYM+rlW4ZOC4zgNz9dk1bykn2WoWPfPOoH5DsLgyngxjfGsiCDMvGa5aVud4uOXYb0ukEmt1Z2oUP00beYy/tmp+T8m9g2lozZnfHzDnkc96zPUomUNBrC7PlWFl4qW9r9E9jnWRq9yA==
+
+Ciphertext 2 (base64):
+
+flk+0NQAW9L8qcDXiGkP0x3K9QyyiuBhkfttQNtW6/HpJ4iPtr18meMHpqbLZo7fRE7C+U09PvDvWFW1veA2Ih+95KAWA0I+vo0aJjwJo7doTiNIy1WCW/MF5vbikw4SupXbpEh9jU8c8zvTE8zY87Nj7zndihr4Hn3RLOHVFv78DcwGq6nAyEcnqsyyrQKWcX0TLreVnm6pal8QG/qQp8DMaCdB1kk3KQ2vrQCU7J7rn/HoPFiBftYl2uFkHyZ49CnxcfIuKCinoUI+WnVKmxHbW2aR+VFfF88A86JNSKJ2blXz4oBrO+gobm4fgXWh
+xkaiHM+zA7nn+jJq9oaVD+zjaKwhTKH8IDB8i1yV/X3B6DfncPsO8n5Fjivr0SjC4C7KTLmapuR4d9HlPqji5RVP5UR+tV30gvzg5PV8qu7y8KhG5Om69JCHa1l1g4LFWMvxR27inpwxdyxOKPb3QbeAPGiTwg==
+
+Known plaintext for message 1:
+
+From: roger@petronas.com
+To: jonas@petronas.com
+Subject: Request for the key
+Body:
+
+Dear Jonas,
+
+    I hope this message finds you well. I wanted
+    to follow up on our previous conversation
+    regarding the key for the upcoming project.
+
+    If you could provide me with the necessary
+    details, I would greatly appreciate it.
+
+Best regards,
+Roger.
